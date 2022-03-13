@@ -42,7 +42,7 @@ public class PriorityQueueTest {
     {
         Exception exception = assertThrows(NullPointerException.class,()->{
             PriorityQueue<Integer> pq = new PriorityQueue<Integer>();
-            pq = null;
+            //pq = null;
             Object[] arr = pq.toArray();
         });
     }
